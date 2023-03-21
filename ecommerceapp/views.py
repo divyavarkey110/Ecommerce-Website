@@ -141,7 +141,7 @@ def profile(request):
 
    
     context ={"items":items,"status":status}
-    # print(currentuser)
+    print(currentuser)
     return render(request,"profile.html",context)
     
 
